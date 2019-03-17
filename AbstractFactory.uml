@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="295.5" y="263.0">com.example.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="146.00000000000003" y="81.0">com.example.factory.YiLiMilk</node>
+    <node x="153.4464285714286" y="0.0">com.example.factory.MilkCreate</node>
+    <node x="258.0" y="81.0">com.example.factory.abstractfactory.MilkFactory</node>
+    <node x="560.0" y="81.0">com.example.factory.abstractfactory.MengNiuMilkDrink</node>
+    <node x="419.5714285714286" y="0.0">com.example.factory.abstractfactory.MilkUse</node>
+    <node x="614.25" y="0.0">com.example.factory.abstractfactory.MilkDrink</node>
+    <node x="392.0" y="81.0">com.example.factory.abstractfactory.MengNiuMilkUse</node>
+    <node x="0.0" y="81.0">com.example.factory.MengNiuMilk</node>
+    <node x="381.5" y="182.0">com.example.factory.abstractfactory.MengNiuMilkFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkUse" target="com.example.factory.abstractfactory.MilkUse">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.MengNiuMilk" target="com.example.factory.MilkCreate">
+      <point x="0.0" y="-15.5" />
+      <point x="63.0" y="61.0" />
+      <point x="167.0714285714286" y="61.0" />
+      <point x="-40.875" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MilkFactory" target="com.example.factory.abstractfactory.MilkDrink">
+      <point x="38.0" y="-15.5" />
+      <point x="353.0" y="61.0" />
+      <point x="631.25" y="61.0" />
+      <point x="-34.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.abstractfactory.MilkDrink">
+      <point x="72.0" y="-15.5" />
+      <point x="537.5" y="162.0" />
+      <point x="726.5" y="162.0" />
+      <point x="726.5" y="61.0" />
+      <point x="699.25" y="61.0" />
+      <point x="34.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MilkFactory" target="com.example.factory.abstractfactory.MilkUse">
+      <point x="0.0" y="-15.5" />
+      <point x="315.0" y="51.0" />
+      <point x="435.0714285714286" y="51.0" />
+      <point x="-31.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkDrink" target="com.example.factory.abstractfactory.MilkDrink">
+      <point x="0.0" y="-15.5" />
+      <point x="638.0" y="61.0" />
+      <point x="665.25" y="61.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.abstractfactory.MilkFactory">
+      <point x="-24.0" y="-15.5" />
+      <point x="441.5" y="132.0" />
+      <point x="343.5" y="132.0" />
+      <point x="28.5" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.abstractfactory.MilkUse">
+      <point x="24.0" y="-15.5" />
+      <point x="489.5" y="142.0" />
+      <point x="549.5" y="142.0" />
+      <point x="549.5" y="51.0" />
+      <point x="497.0714285714286" y="51.0" />
+      <point x="31.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.AbstractFactoryTest" target="com.example.factory.abstractfactory.MilkFactory">
+      <point x="-40.25" y="-15.5" />
+      <point x="335.75" y="238.0" />
+      <point x="260.5714285714286" y="238.0" />
+      <point x="260.5714285714286" y="162.0" />
+      <point x="286.5" y="162.0" />
+      <point x="-28.5" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MilkFactory" target="com.example.factory.MilkCreate">
+      <point x="-38.0" y="-15.5" />
+      <point x="277.0" y="51.0" />
+      <point x="248.8214285714286" y="51.0" />
+      <point x="40.875" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.MengNiuMilk">
+      <point x="-72.0" y="-15.5" />
+      <point x="393.5" y="152.0" />
+      <point x="63.0" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.YiLiMilk" target="com.example.factory.MilkCreate">
+      <point x="0.0" y="-15.5" />
+      <point x="191.50000000000003" y="61.0" />
+      <point x="194.3214285714286" y="61.0" />
+      <point x="-13.625" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.MilkCreate">
+      <point x="-48.0" y="-15.5" />
+      <point x="417.5" y="142.0" />
+      <point x="247.50000000000003" y="142.0" />
+      <point x="247.50000000000003" y="61.0" />
+      <point x="221.5714285714286" y="61.0" />
+      <point x="13.625" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.abstractfactory.MengNiuMilkDrink">
+      <point x="48.0" y="-15.5" />
+      <point x="513.5" y="152.0" />
+      <point x="638.0" y="152.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.AbstractFactoryTest" target="com.example.factory.abstractfactory.MengNiuMilkFactory">
+      <point x="40.25" y="-15.5" />
+      <point x="416.25" y="238.0" />
+      <point x="465.5" y="238.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.abstractfactory.MengNiuMilkFactory" target="com.example.factory.abstractfactory.MengNiuMilkUse">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="73.0" />
+  <SelectedNodes>
+    <node>com.example.factory.abstractfactory.AbstractFactoryTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

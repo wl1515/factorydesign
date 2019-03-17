@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.factory.factorymethod.MilkFactory</OriginalElement>
+  <nodes>
+    <node x="136.41666666666669" y="0.0">com.example.factory.Milk</node>
+    <node x="0.0" y="81.0">com.example.factory.YiLiMilk</node>
+    <node x="249.41666666666669" y="81.0">com.example.factory.MengNiuMilk</node>
+    <node x="26.50000000000003" y="162.0">com.example.factory.factorymethod.YiLiMilkFactory</node>
+    <node x="115.41666666666669" y="81.0">com.example.factory.factorymethod.MilkFactory</node>
+    <node x="218.07291666666669" y="162.0">com.example.factory.factorymethod.MengNiuMilkFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.factory.factorymethod.MilkFactory" target="com.example.factory.Milk">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.MengNiuMilk" target="com.example.factory.Milk">
+      <point x="0.0" y="-15.5" />
+      <point x="312.4166666666667" y="61.0" />
+      <point x="186.8166666666667" y="61.0" />
+      <point x="14.400000000000006" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.YiLiMilkFactory" target="com.example.factory.Milk">
+      <point x="0.0" y="-15.5" />
+      <point x="93.00000000000003" y="137.0" />
+      <point x="101.5" y="137.0" />
+      <point x="101.5" y="61.0" />
+      <point x="158.01666666666668" y="61.0" />
+      <point x="-14.400000000000006" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.YiLiMilkFactory" target="com.example.factory.factorymethod.MilkFactory">
+      <point x="44.333333333333314" y="-15.5" />
+      <point x="137.33333333333334" y="137.0" />
+      <point x="143.91666666666669" y="137.0" />
+      <point x="-28.5" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.MengNiuMilkFactory" target="com.example.factory.Milk">
+      <point x="56.0" y="-15.5" />
+      <point x="358.0729166666667" y="137.0" />
+      <point x="385.9166666666667" y="137.0" />
+      <point x="385.9166666666667" y="51.0" />
+      <point x="201.2166666666667" y="51.0" />
+      <point x="28.80000000000001" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.YiLiMilkFactory" target="com.example.factory.YiLiMilk">
+      <point x="-44.33333333333337" y="-15.5" />
+      <point x="48.66666666666666" y="137.0" />
+      <point x="45.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.MengNiuMilkFactory" target="com.example.factory.factorymethod.MilkFactory">
+      <point x="-56.0" y="-15.5" />
+      <point x="246.07291666666669" y="137.0" />
+      <point x="200.91666666666669" y="137.0" />
+      <point x="28.5" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.factorymethod.MengNiuMilkFactory" target="com.example.factory.MengNiuMilk">
+      <point x="0.0" y="-15.5" />
+      <point x="302.0729166666667" y="137.0" />
+      <point x="312.4166666666667" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.factory.YiLiMilk" target="com.example.factory.Milk">
+      <point x="0.0" y="-15.5" />
+      <point x="45.5" y="51.0" />
+      <point x="143.61666666666667" y="51.0" />
+      <point x="-28.80000000000001" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="68.5" y="66.0" />
+  <SelectedNodes>
+    <node>com.example.factory.factorymethod.MilkFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
